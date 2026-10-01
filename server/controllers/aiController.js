@@ -108,7 +108,7 @@ Follow-up email:
 
 Return the result according to the JSON schema.
 `;
-console.log("userPrompt======",userPrompt);
+    console.log("userPrompt======", userPrompt);
 
     // -----------------------------
     // Groq API
@@ -354,10 +354,6 @@ console.log("userPrompt======",userPrompt);
     });
   }
 };
-
-// ======================================================
-// GET HISTORY
-// ======================================================
 
 exports.getHistory = async (req, res) => {
   try {
